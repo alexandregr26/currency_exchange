@@ -1,0 +1,138 @@
+body {
+    background-color: #004680;
+    text-align: center;
+    font-size: 16px;
+}
+
+.wrapper{
+    background-color: white;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    right: 10%;
+	align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.header-title{
+    padding: 20px;
+}
+
+.subheader-title{
+    padding-bottom: 10px;
+}
+
+.row{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.currency_input, .currency_output{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+img {
+    justify-content: center;
+    max-width: 54px;
+    float: left;
+    margin-left: 10px;
+}
+
+input, select {
+    height: 52px;
+    outline: none;
+}
+
+select{
+    text-align: center;
+    text-align-last: center;
+    width: 70%;
+    border-radius: 10px;
+    float: right;
+    padding-right: 10px;
+}
+
+select:focus{
+    border: 2.2px solid #005DAA;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    color: #005DAA;
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid gray;
+}
+
+input:focus{
+    border-bottom: 2.2px solid #005DAA;
+}
+
+.reverse {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: #005DAA;
+    border: #005DAA;
+}
+
+i{
+    cursor: pointer;
+}
+
+/* Responsiveness */ 
+@media (max-width: 600px){
+    img {
+        display: none;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+    img {
+        margin-left: 40px;
+    }
+
+    select{
+        margin-right: 30px;
+    }
+
+    input{
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+    img {
+        margin-left: 50px;
+    }
+
+    select{
+        margin-right: 30px;
+    }
+
+    input{
+        width: 90%;
+    }
+}
